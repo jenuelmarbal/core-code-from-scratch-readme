@@ -19,13 +19,12 @@
 
 ## Hot N Cold 🤒 🧊 🔥
 1. Read the temperature
-
-2. If the temperature is in Celsius, convert it to Fahrenheit with the following formula
-- Multiply by 1.8 
+2. If the temperature is in Celsius, convert it to Fahrenheit with the following formula 
+- Multiply by 1.8
 - Add to the previous result 32.
 - The result will be the temperature in Fahrenheit.
-
-If the temperature is in Fanhrenheit, convert it to Celsius with the following formula
-Subtract 32 from the temperature in Fahrenheit
-Multiply by .5556 the previous result.
-The result will be the temperature in Celsius.
+3. If the temperature is in Fanhrenheit, convert it to Celsius with the following formula 
+- Subtract 32 from the temperature in Fahrenheit
+- Multiply by .5556 the previous result.
+- The result will be the temperature in Celsius.
+4. End
