@@ -21,11 +21,11 @@
 1. Read the temperature
 
 2. If the temperature is in Celsius, convert it to Fahrenheit with the following formula
-2.1 Multiply by 1.8 
-2.2 Add to the previous result 32.
-2.3 The result will be the temperature in Fahrenheit.
+- Multiply by 1.8 
+- Add to the previous result 32.
+- The result will be the temperature in Fahrenheit.
 
-3 If the temperature is in Fanhrenheit, convert it to Celsius with the following formula
-3.1 Subtract 32 from the temperature in Fahrenheit
-3.2 Multiply by .5556 the previous result.
-3.3 The result will be the temperature in Celsius.
+If the temperature is in Fanhrenheit, convert it to Celsius with the following formula
+Subtract 32 from the temperature in Fahrenheit
+Multiply by .5556 the previous result.
+The result will be the temperature in Celsius.
