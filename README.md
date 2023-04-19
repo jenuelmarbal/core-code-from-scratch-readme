@@ -19,8 +19,8 @@
 
 ## Hot N Cold 🤒 🧊 🔥
 1. Read the temperature
-2. If the temperature is in Celsius, convert it to Fahrenheit with the following formula <br>
-2.1 Multiply by 1.8
+2. If the temperature is in Celsius, convert it to Fahrenheit with the following formula 
+- Multiply by 1.8
 - Add to the previous result 32.
 - The result will be the temperature in Fahrenheit.
 3. If the temperature is in Fanhrenheit, convert it to Celsius with the following formula 
@@ -30,8 +30,22 @@
 4. End
 
 ## Some geometry 📐
-### Volume of a cube
-1. Measure each side of the cube all of them must be equal
-2. Represent this value as "a"
-3. Replace "a" with the value from the cube in the following formula "volume of a Cube = a × a × a = a³"
-4. end.
+1. Ask with volume is the needed (cube, pyramid or sphere)
+2. If the answer is cube then: <br>
+2.1 ask the length of one side (all three sides are equal in measure) <br>
+2.2 Represent this value as "a" <br>
+2.3 Replace "a" with the value from the cube in the following operation a × a × a <br>
+2.4 Make the operation <br>
+2.5 the result is the value of the volume  <br>
+3. If the answer is pyramid then: <br>
+3.1 Ask for the lenght from the base, the width and the height <br>
+3.2 Replace in the following formula Volume of a Pyramid = 1/3 × Base length × Base width × height <br>
+3.3 Make the operation <br>
+3.4 The result is the value of the volume <br>
+4. If the answer is sphere then: <br>
+4.1 Ask for the radius of the sphere <br>
+4.2 Replace the value in the following formula 4/3 πr³ <br>
+4.3 Make the operation <br>
+4.4 The result is the value of the volume <br>
+5. End
+
