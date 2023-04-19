@@ -65,8 +65,8 @@
 We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
 
 If all of them are lying then:
-Left chest: The middle chest has a treasure = Since it is a lie the treasure is not in the middle chest
-Middle chest: All these chests have treasures in them = Because it is a lie no all of them would have treasures however some of them might have them
-Right chest: Only one of these chests has treasures. = Since it is a lie, it is impossible just for one to have treasures
+Left chest: The middle chest has a treasure = Since it is a lie the treasure is not in the middle chest <br>
+Middle chest: All these chests have treasures in them = Because it is a lie no all of them would have treasures however some of them might have them <br>
+Right chest: Only one of these chests has treasures. = Since it is a lie, it is impossible just for one to have treasures <br>
 
 According to the previous analysis there are two possibilities, the first none of them have trasures and the second the left and right chest have treasures, nevertheless the instruccions says that at leat one has treasure therefore the left and right chest is the correct answer. 
