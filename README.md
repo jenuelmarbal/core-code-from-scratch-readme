@@ -109,3 +109,28 @@ The only student which could be possible being telling the truth is Bob because 
 
 ## Mod 
 ![Mod](https://user-images.githubusercontent.com/118112094/233888505-212e1d97-6c67-4a5f-b8db-6683ba2f38e3.jpg)
+
+## Register form
+![Register form](https://user-images.githubusercontent.com/118112094/233890703-f9baf179-ff8e-4c35-90f7-de345f0b92c2.jpg)
+
+## Truth tables
+T & T = T ✅
+T & F = F ✅
+F & T = T ❌
+F & F = F ✅
+T | T = T ✅
+T | F = F ❌
+F | T = T ✅
+F | F = F ✅
+~T = T ❌
+~F = T ✅
+(T & F)=F | (~F)=T = T ✅
+(T | F )=T & (F | F)=F = T ❌
+~((T | F )=T & (F | F)=F)=F & F =F = T ✅
+~((T | F )=T & (F | F)=F)=F & T =F = F ❌
+
+## Boolean results
+![boolean](https://user-images.githubusercontent.com/118112094/233899111-7e5b0fa2-a464-46a6-a37b-904cb9d0469d.jpg)
+
+## Identify odd and even numbers
+![Odd and Even](https://user-images.githubusercontent.com/118112094/233901800-749ef253-1206-4bf4-a5c2-4d7176379485.jpg)
