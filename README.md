@@ -70,3 +70,42 @@ Middle chest: All these chests have treasures in them = Because it is a lie no a
 Right chest: Only one of these chests has treasures. = Since it is a lie, it is impossible just for one to have treasures <br>
 
 According to the previous analysis there are two possibilities, the first none of them have trasures and the second the left and right chest have treasures, nevertheless the instruccions says that at leat one has treasure therefore the left and right chest is the correct answer. 
+
+## Logic problem
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday". <br>
+Bob: "1 person studied math yesterday". <br>
+Charlie: "2 people studied math yesterday". <br>
+Dan: "3 people studied mathematics yesterday". <br>
+Eva: "4 people studied mathematics yesterday". <br>
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+If Alice is telling the truth tha means nobody study however since those who are telling the truth studied that means that Alice did study therefore is contradictory and impossible. 
+
+The only student which could be possible being telling the truth is Bob because is the only one who does not contradict itself therefore he studied and if other student would be telling the truth that would be impossible since there are different sentences like nobody, 2, 3 and 4 people and all of them contradict each other except Bob. 
+
+## Cereal or Milk
+### Pseudocode
+1. Grab a bowl
+2. Add the cereal of your choice
+3. If you would like topics <br>
+3.1 Ask which toppings (fruits, raisins, granola) <br>
+3.2 Add the toppings chosen <br>
+4. Serve the milk
+5. Enjoy
+## Flowchart 
+![Cereal or Milk](https://user-images.githubusercontent.com/118112094/233878837-7fdb2591-2000-4a11-864b-f3ed7e5d6c83.jpeg)
+
+## Print my name
+![Print my name W02](https://user-images.githubusercontent.com/118112094/233881270-e159c675-97bb-49ae-a107-333bc36af581.jpg)
+
+## Print my name & age
+![myNameAndAge](https://user-images.githubusercontent.com/118112094/233881996-780aa324-3076-4fa7-8b78-6454d590750b.jpg)
+
+## Algorithm game
+![CodeGame](https://user-images.githubusercontent.com/118112094/233885700-7a83ff85-4fab-47e4-b7ca-8f9ddcd9d666.jpg)
+
+## Mod 
+![Mod](https://user-images.githubusercontent.com/118112094/233888505-212e1d97-6c67-4a5f-b8db-6683ba2f38e3.jpg)
