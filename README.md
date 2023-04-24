@@ -144,3 +144,36 @@ Algoritmo oddAndEven
 	Fin Si
 FinAlgoritmo
 ```
+
+## Simple Calculator
+```
+Algoritmo SimpleCalculator
+	imprimir 'ingrese el primer número'
+	leer var1
+	imprimir 'ingrese el segundo número'
+	leer var2
+	imprimir 'ingrese una operación +,-,x,/'
+	leer op
+	Si op= '+' | op= '-' | op= '*' | op= '/' Entonces
+		imprimir 'Procesando ' + ConvertirATexto(var1) + ' ' + op + ' ' + ConvertirATexto(var2) 
+		si op = '+' Entonces
+			imprimir 'Resultado:' ConvertirATexto(var1 + var2) 
+		sino 
+			si op = '-' Entonces
+					Imprimir 'Resultado' ConvertirATexto(var1 - var2)
+			SiNo
+				si op = '*' Entonces
+						Imprimir 'Resultado:' ConvertirATexto(var1 * var2)
+				SiNo
+					si op = '/' Entonces
+						Imprimir 'Resultado:' ConvertirATexto(var1 / var2)
+							
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		Imprimir 'La operación no es válida inténtalo de nuevo'
+	Fin Si
+FinAlgoritmo
+```
