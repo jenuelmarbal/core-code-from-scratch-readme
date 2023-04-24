@@ -114,23 +114,33 @@ The only student which could be possible being telling the truth is Bob because 
 ![Register form](https://user-images.githubusercontent.com/118112094/233890703-f9baf179-ff8e-4c35-90f7-de345f0b92c2.jpg)
 
 ## Truth tables
-T & T = T ✅
-T & F = F ✅
-F & T = T ❌
-F & F = F ✅
-T | T = T ✅
-T | F = F ❌
-F | T = T ✅
-F | F = F ✅
-~T = T ❌
-~F = T ✅
-(T & F)=F | (~F)=T = T ✅
-(T | F )=T & (F | F)=F = T ❌
-~((T | F )=T & (F | F)=F)=F & F =F = T ✅
-~((T | F )=T & (F | F)=F)=F & T =F = F ❌
+1. T & T = T ✅ 
+2. T & F = F ✅
+3. F & T = T ❌
+4. F & F = F ✅
+5. T | T = T ✅
+6. T | F = F ❌
+7. F | T = T ✅
+8. F | F = F ✅
+9. ~T = T ❌
+10. ~F = T ✅
+11. (T & F)=F | (~F)=T = T ✅
+12. (T | F )=T & (F | F)=F = T ❌
+13. ~((T | F )=T & (F | F)=F)=F & F =F = T ✅
+14. ~((T | F )=T & (F | F)=F)=F & T =F = F ❌
 
 ## Boolean results
 ![boolean](https://user-images.githubusercontent.com/118112094/233899111-7e5b0fa2-a464-46a6-a37b-904cb9d0469d.jpg)
 
 ## Identify odd and even numbers
-![Odd and Even](https://user-images.githubusercontent.com/118112094/233901800-749ef253-1206-4bf4-a5c2-4d7176379485.jpg)
+```
+Algoritmo oddAndEven
+	imprimir 'Escribe el número a verificar'
+	leer x
+	Si x % 2 =0  Entonces
+		Imprimir 'Número: ' + ConvertirATexto(x) + ' es par '
+	SiNo
+		Imprimir 'Número: ' + ConvertirATexto(x) + ' es impar '
+	Fin Si
+FinAlgoritmo
+```
