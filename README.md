@@ -220,3 +220,44 @@ Algoritmo SimpleCalculatorSwtich
 	FinSi
 FinAlgoritmo
 ```
+## Multi Option Program
+```
+Algoritmo multiOptionProgram
+	Imprimir 'Avaible options'
+	Imprimir '1. Sum two numbers'
+	Imprimir '2. Print the day of the week given the day number'
+	Imprimir '3. Print the length of a given text'
+	Imprimir 'Write one of the previous options'
+	leer option
+	Segun option Hacer
+		1:
+			Imprimir '1. Sum two numbers'
+			Imprimir 'Write the first number'
+			Leer Num1
+			Imprimir 'Write the first number'
+			Leer Num2
+			Imprimir 'result:' + ConvertirATexto(Num1+Num2)
+		2: 
+			Imprimir '2. Print the day of the week given the day number'
+			Imprimir 'enter the day of the week in number (1-7)'
+			Leer Num 
+			Segun num hacer
+				1: imprimir 'Lunes'
+				2: imprimir 'Martes'
+				3: imprimir 'Miércoles'
+				4: imprimir 'Jueves'
+				5: imprimir 'Viernes'
+				6: imprimir 'Sábado'
+				7: imprimir 'Domingo'
+			FinSegun
+		3: 
+			Imprimir '3. Print the length of a given text'
+			Imprimir 'Enter the text'
+			Leer cadena
+			Imprimir 'Resultado:' ConvertirATexto(Longitud(cadena))
+		De Otro Modo:
+			Imprimir 'wrong option'
+			
+	FinSegun
+FinAlgoritmo
+```
