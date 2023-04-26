@@ -192,3 +192,31 @@ Algoritmo specialNumber
 	FinSi
 FinAlgoritmo
 ```
+## Simple calculator with Switch
+```
+Algoritmo SimpleCalculatorSwtich
+	Imprimir 'Escribe primer número'
+	Leer Num1
+	Imprimir 'Escribe segundo número'
+	Leer Num2
+	Imprimir 'Escribe la signo de la operación a realizar (+, -, *, /)'
+	Leer signo
+	si signo == '+' | signo == '-' | signo == '*' | signo == '/' Entonces
+		imprimir 'Procesando ' + ConvertirATexto(Num1) + ' ' + signo + ' ' + ConvertirATexto(Num2)
+		Segun signo Hacer
+			'+' :
+				Imprimir 'Resultado:' + ConvertirATexto(Num1 + Num2) 
+			'-' :
+				Imprimir 'Resultado:' + ConvertirATexto(Num1 - Num2) 
+			'*' :
+				Imprimir 'Resultado:' + ConvertirATexto(Num1 * Num2) 
+			'/' :
+				Imprimir 'Resultado:' + ConvertirATexto(Num1 / Num2) 
+				
+		FinSegun
+	SiNo
+		imprimir 'Operación no válida, inténtalo de nuevo'
+		
+	FinSi
+FinAlgoritmo
+```
