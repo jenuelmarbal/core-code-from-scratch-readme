@@ -345,6 +345,7 @@ Algoritmo Greetings
 	Continuar = 'Si'
 	Intentos = 0
 	Mientras Continuar = 'Si' Hacer
+		Intentos = Intentos + 1
 		Imprimir 'Ingresa la hora Actual (0-23)'
 		Leer hora
 		Si hora <= 12 Entonces
@@ -358,9 +359,7 @@ Algoritmo Greetings
 		Fin Si
 		Imprimir 'Desea Continuar ? Si / No'
 		Leer Continuar
-		Continuar = Continuar
-		Intentos = Intentos + 1
 	Fin Mientras
-	Imprimir "Cantidad de saludos realizados ", Intentos
+	Imprimir "Cantidad de saludos realizados " + ConvertirATexto(Intentos)
 FinAlgoritmo
 ```
