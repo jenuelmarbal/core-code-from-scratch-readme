@@ -339,3 +339,28 @@ Algoritmo AscendingAndDescending
 	FinSegun
 FinAlgoritmo
 ```
+## Greetings
+```
+Algoritmo Greetings
+	Continuar = 'Si'
+	Intentos = 0
+	Mientras Continuar = 'Si' Hacer
+		Imprimir 'Ingresa la hora Actual (0-23)'
+		Leer hora
+		Si hora <= 12 Entonces
+			Imprimir 'Buenos dias'
+		SiNo
+			Si hora <= 18 Entonces
+				Imprimir 'Buenas tardes'
+			SiNo
+				Imprimir 'Buenas noches'
+			Fin Si
+		Fin Si
+		Imprimir 'Desea Continuar ? Si / No'
+		Leer Continuar
+		Continuar = Continuar
+		Intentos = Intentos + 1
+	Fin Mientras
+	Imprimir "Cantidad de saludos realizados ", Intentos
+FinAlgoritmo
+```
