@@ -261,3 +261,81 @@ Algoritmo multiOptionProgram
 	FinSegun
 FinAlgoritmo
 ```
+## Multiplication Tables
+```
+Algoritmo MultiplicationTables
+	Imprimir 'Ingrese la tabla a calcular'
+	Leer num
+	Imprimir 'Tabla del ' ConvertirATexto(num)
+	iterador <- 1
+	Mientras iterador <= 10 
+		Imprimir ConvertirATexto(num) ' *  ' + ConvertirATexto(iterador) + ' = ' ConvertirATexto(num * iterador)
+		iterador <- iterador + 1
+	FinMientras
+FinAlgoritmo
+```
+## Simple calculator with Do While
+```
+Algoritmo SimpleCalculatorWithDoWhile
+	Repetir
+		Imprimir 'Escribe primer número'
+		Leer Num1
+		Imprimir 'Escribe segundo número'
+		Leer Num2
+		Imprimir 'Escribe la signo de la operación a realizar (+, -, *, /)'
+		Leer signo
+		si signo == '+' | signo == '-' | signo == '*' | signo == '/' Entonces
+			imprimir 'Procesando ' + ConvertirATexto(Num1) + ' ' + signo + ' ' + ConvertirATexto(Num2)
+			Segun signo Hacer
+				'+' :
+					Imprimir 'Resultado:' + ConvertirATexto(Num1 + Num2) 
+				'-' :
+					Imprimir 'Resultado:' + ConvertirATexto(Num1 - Num2) 
+				'*' :
+					Imprimir 'Resultado:' + ConvertirATexto(Num1 * Num2) 
+				'/' :
+					Imprimir 'Resultado:' + ConvertirATexto(Num1 / Num2) 
+					
+			FinSegun
+		SiNo
+			imprimir 'Operación no válida, inténtalo de nuevo'
+			
+		FinSi
+		Imprimir 'Desea realizar otra operación? si/no'
+		Leer respuesta
+	Hasta Que respuesta= 'no' | respuesta= 'NO'
+FinAlgoritmo
+```
+## Multiplication Tables with For
+```
+Algoritmo MultiplicationTablesWithFor
+	Imprimir 'Ingrese la tabla a calcular'
+	Leer num
+	Imprimir 'Tabla del ' ConvertirATexto(num)
+	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+		Imprimir ConvertirATexto(num)  ' * ' + ConvertirATexto(i) + ' = ' ConvertirATexto(num*i)
+	Fin Para
+FinAlgoritmo
+```
+## Ascending and Descending Numbers
+```
+Algoritmo AscendingAndDescending
+	Imprimir 'escribe un número'
+	leer Num
+	Imprimir 'operaciones disponibles'
+	Imprimir '1. imprimir en orden ascendente'
+	imprimir '2. imprimir en orden descendente' 
+	Imprimir 'Ingrese operación a ejecutar'
+	Leer op
+	Segun op Hacer
+			1: Para i<-0 Hasta num Con Paso 1 Hacer
+					Imprimir ConvertirATexto(i)
+				Fin Para
+			2: Para i<- num Hasta 0 Con Paso -1 Hacer
+					Imprimir ConvertirATexto(i)
+				Fin Para
+			De Otro Modo:
+				Imprimir 'opción incorrecta, intenta otra vez'
+	FinSegun
+FinAlgoritmo
+```
