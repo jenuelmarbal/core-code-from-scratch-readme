@@ -363,3 +363,49 @@ Algoritmo Greetings
 	Imprimir "Cantidad de saludos realizados " + ConvertirATexto(Intentos)
 FinAlgoritmo
 ```
+## Average sales and commission
+```
+Algoritmo AverageSalesAndCommission
+	Imprimir 'Escribe el número total de ventas'
+	Leer TotalDeVentas
+	TotalGanancia = 0
+	
+	Para venta =1 Hasta TotalDeVentas Con Paso 1 Hacer
+		Imprimir 'Escribe el valor de la venta ' + ConvertirATexto(venta)
+		Leer ValorDeVenta
+		TotalGanancia = TotalGanancia + ValorDeVenta
+	FinPara
+	
+	Promedio = TotalGanancia / TotalDeVentas
+	Imprimir 'El promedio por venta es de ' + ConvertirATexto(Promedio)
+	
+	Si TotalDeVentas > 5 Entonces
+		Imprimir 'la comisión para el vendedor es de ' ConvertirATexto(TotalGanancia * .15)
+	SiNo
+		Imprimir 'La comisión para el vendedor es de ' ConvertirATexto(TotalGanancia * .10)
+	FinSi
+FinAlgoritmo
+```
+## Even or odd
+```
+Algoritmo EvenOrOdd
+	Repetir
+		Imprimir 'Escribe un número entre el 1 y el 50'
+		Leer num 
+			Si num < 1 | num > 50
+				Imprimir 'Número invalido intenta de nuevo'
+			FinSi
+	Mientras Que num < 1 | num > 50
+		
+		par = num % 2 = 0
+	
+		para i=1 Hasta num Con Paso 1 Hacer
+			Si i % 2 = 0 & par Entonces
+				Imprimir i
+			FinSi
+			Si i % 2 = 1 & ~(par) Entonces
+				Imprimir i
+			FinSi
+		FinPara
+FinAlgoritmo
+```
