@@ -409,3 +409,44 @@ Algoritmo EvenOrOdd
 		FinPara
 FinAlgoritmo
 ```
+## Full Name
+```
+Algoritmo FullName
+	Imprimir 'Escribe un nombre'
+	Leer nombre
+	Imprimir 'Escribe un apellido'
+	Leer apellido
+	nombreCorrecto = Mayusculas(Subcadena(nombre, 0,0)) + Minusculas(Subcadena(nombre,1,Longitud(nombre)-1))
+	apellidoCorrecto = Mayusculas(Subcadena(apellido, 0,0)) + Minusculas(Subcadena(apellido,1,Longitud(apellido)-1))
+	Imprimir nombreCorrecto " " + apellidoCorrecto
+FinAlgoritmo
+```
+## Throw dice
+```
+Algoritmo ThrowDice
+	Para i=1 Hasta 10 Con Paso 1 Hacer
+		dado1 = azar(5+1)
+		dado2= azar(5+1)
+		Si dado1 = dado2 Entonces
+			Imprimir ConvertirATexto(dado1) " " + ConvertirATexto(dado2) ' the dices are the same'
+		SiNo
+			Imprimir ConvertirATexto(dado1) " " + ConvertirATexto(dado2) ""
+		FinSi
+	FinPara
+FinAlgoritmo
+```
+## Distance to zero
+```
+Algoritmo DistanceToZero
+	Imprimir 'Write a number'
+	Leer MaxDistance
+	Para count = 1 hasta 4 Con Paso 1 Hacer
+		Imprimir 'Write a number'
+		Leer num
+		Si abs(num)>abs(MaxDistance) Entonces
+			MaxDistance = num
+		FinSi
+	FinPara
+	Imprimir trunc(MaxDistance)
+FinAlgoritmo
+```
