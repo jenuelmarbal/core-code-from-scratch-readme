@@ -450,3 +450,71 @@ Algoritmo DistanceToZero
 	Imprimir trunc(MaxDistance)
 FinAlgoritmo
 ```
+## Toss coin
+```
+Algoritmo TossCoin
+	Imprimir 'First player, enter your name'
+	Leer name1
+	Imprimir 'Enter the amount to play'
+	Leer num1
+	Imprimir 'Second player, enter your name'
+	Leer name2
+	Imprimir 'Enter the amount to play'
+	Leer num2
+	
+		Si num1<=0 | num2<=0 Entonces
+			Si num1<=0 & num2<=0 Entonces
+				Imprimir 'Game Cancelled'
+			SiNo
+				Si num1<=0 Entonces
+					Imprimir 'Player wins: ' + Mayusculas(name2) + ' Amount won: 0 ' 
+				SiNo
+					Imprimir 'Player wins: ' + Mayusculas(name1) + ' Amount won: 0'
+				FinSi
+			FinSi
+		SiNo
+					Si azar(1+1) = 1 Entonces
+						Imprimir 'Player wins: ' + Mayusculas(name1) + ' Amount won: ' + ConvertirATexto(num2)
+					SiNo
+						Imprimir 'Player wins: ' + Mayusculas(name2) + ' Amount won: ' + ConvertirATexto(num1)
+					FinSi
+				
+		FinSi
+FinAlgoritmo
+```
+## Total price
+```
+Funcion value <- totalprice ( price,vat )
+	si price>3000 Entonces
+		value = (price + (price*vat/100))/100*90
+	SiNo
+		value=price + (price*vat/100)
+	FinSi
+Fin Funcion
+
+Algoritmo Total_Price
+	Imprimir totalprice(5000,21)
+FinAlgoritmo
+```
+## Reverse direction and size
+```
+Funcion result <- ReverseDirectionAndSize (string)
+	Definir result Como Caracter;
+	result = "";
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		letter = Subcadena(string,count,count);
+		SI letter = Mayusculas(letter) Entonces
+			letter = Minusculas(letter)
+		SiNo
+			letter = Mayusculas(letter)
+		FinSi
+		result = result + letter
+	FinPara
+Fin Funcion
+
+Algoritmo Reverse_Direction_And_Size
+	Imprimir ReverseDirectionAndSize("ANItAlAVAlATINa")
+	Imprimir ReverseDirectionAndSize("LUZaZUl")
+	Imprimir ReverseDirectionAndSize("abril")
+FinAlgoritmo
+```
