@@ -518,3 +518,25 @@ Algoritmo Reverse_Direction_And_Size
 	Imprimir ReverseDirectionAndSize("abril")
 FinAlgoritmo
 ```
+## Time Converter
+```
+Funcion result <- timeConverter (number)
+	Definir result Como Caracter;
+	Definir days, hours, minutes, seconds Como Entero;
+	seconds = number % 60;
+	minutes = Trunc(number/60) % 60;
+	hours = Trunc(number/3600) % 24;
+	days = Trunc(number/86400);
+	result = Concatenar('days: ', ConvertirATexto(days));
+	result = Concatenar(result, ', hours: ');
+	result = Concatenar(result, ConvertirATexto(hours));
+	result = Concatenar(result, ', minutes: ');
+	result = Concatenar(result, ConvertirATexto(minutes));
+	result = Concatenar(result, ', and seconds: ');
+	result = Concatenar(result, ConvertirATexto(seconds));
+Fin Funcion
+
+Algoritmo Time_Converter
+	Imprimir timeConverter(4000)
+FinAlgoritmo
+```
