@@ -682,3 +682,19 @@ Algoritmo Weather_Average
 	Imprimir total / count;
 FinAlgoritmo
 ```
+## 'IF' statement in JavaScript
+if (note > 5) {
+stament = "Congatulations you pass";
+} else {
+stament = "I am sorry, you fail, talk to your teacher";
+}
+## 'WHILE' loop in JavaScript
+let note = 0;
+while (note < 100) {
+console.log ("The note is reprobatory");
+note++;
+}
+## 'FOR' loop in JavaScript
+for (let i = 0; i < 10, i++) {
+text += "the number is " + i + "<br>";
+}
