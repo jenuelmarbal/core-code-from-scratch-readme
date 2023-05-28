@@ -563,3 +563,122 @@ Algoritmo Compare_Distances
 	Imprimir compareDistances()
 FinAlgoritmo
 ```
+## Sum of pairs
+```
+Funcion result <- sumOfPairs ()
+	Definir result Como Real
+	Definir sum Como Real
+	Sum = 0;
+	Repetir
+		Imprimir 'Write a number between 1 and 100'
+		leer num
+		Si num < 1 | num > 100 Entonces
+			imprimir 'Invalid number'
+		SiNo
+			SI num %2 = 0 Entonces
+				sum = sum + num
+			FinSi
+		FinSi
+	Mientras Que num >= 1 & num <= 100
+	result= sum;
+FinFuncion
+
+Algoritmo sum_Of_Pairs
+	Imprimir sumOfPairs ()
+FinAlgoritmo
+```
+## Mid point
+```
+Funcion result <- midPoint (num1,num2)
+	Si num1 > 0 Entonces
+		Si num2 > 0 Entonces
+			SI num1 > num2 Entonces
+				result = num2 + ((num1 - num2) / 2); 
+			SiNo
+				result = num1 + ((num2 - num1) / 2);
+			FinSi
+		SiNo
+			result = num1 - ( (num1 + Abs(num2))/2);
+		FinSi
+	SiNo
+		SI num2 > 0 Entonces
+			result = num1 + ( (num2 + Abs(num1))/2)	;
+		SiNo
+			SI Abs(num1) > Abs(num2) Entonces
+				result = num1 + ((Abs(num1) - Abs(num2)) / 2); 
+			SiNo
+				result = num2 + ((Abs(num2) - Abs(num1)) / 2); 
+			FinSi
+		FinSi
+	FinSi
+	
+Fin Funcion
+
+Algoritmo Midp_Point
+	Imprimir midPoint(40,80)
+FinAlgoritmo
+```
+## Cashier
+```
+Funcion balance <- cashier ()
+	Definir balance Como Real;
+	balance = 1000;
+	Repetir
+		Imprimir "select an option:";
+		Imprimir "a. to deposit.";
+		Imprimir "b. withdraw.";
+		Imprimir "c. go out.";
+		leer option
+		Si option = 'a' Entonces
+			balance = balance + deposit()
+		FinSi
+		Si option = 'b' Entonces
+			balance = balance - withdraw()
+		FinSi
+	Mientras Que option = "a" | option = "b"
+Fin Funcion
+
+Funcion value <- deposit()
+	Imprimir "how much do you want to deposit:";
+	leer value
+FinFuncion
+
+Funcion value <- withdraw()
+	Imprimir "how much do you want to withdraw:";
+	leer value
+FinFuncion
+
+Algoritmo Cashier_
+	Imprimir cashier()
+FinAlgoritmo
+```
+## Weather average
+```
+Funcion celsius <- fahrenheitToCelsius (fahrenheit)
+	Definir celsius Como Real;
+	celsius = (fahrenheit - 32 ) / 1.8
+Fin Funcion
+
+Algoritmo Weather_Average
+	count = 0;
+	total = 0;
+	Repetir
+		Imprimir "select an option:";
+		Imprimir "a. enter degrees celsius.";
+		Imprimir "b. enter degrees fahrenheit.";
+		Imprimir "x. go out.";
+		leer option
+		Si option = "a" | option = "b" Entonces
+			leer degree
+			count = count + 1;
+		FinSi
+		Si option = 'a' Entonces
+			total = total + degree;
+		FinSi
+		Si option = 'b' Entonces
+			total = total + fahrenheitToCelsius(degree);
+		FinSi
+	Mientras Que option = "a" | option = "b"
+	Imprimir total / count;
+FinAlgoritmo
+```
