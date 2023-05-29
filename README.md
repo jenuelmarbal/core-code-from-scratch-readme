@@ -704,3 +704,20 @@ for (let i = 0; i < 10, i++) {
 text += "the number is " + i + "<br>";
 }
 ```
+## Development environment
+Instalación OK
+## Variables 
+```
+let firstname = "Lata";
+```
+## What is x?
+The value will be "Geeta"
+## Several variables
+```
+let flower = 'rose'
+let tree = 'maple'
+```
+## Reassignment
+The value will be 'Toe'
+## Assign variables
+The value of x will be "Hardy"
