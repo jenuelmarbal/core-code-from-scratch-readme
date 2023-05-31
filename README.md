@@ -781,4 +781,28 @@ function indexOfIgnoreCase(s1, s2) {
   let s2Lower = s2.toLowerCase();
   return s1Lower.indexOf(s2Lower);
 }
+## String: substr()
 ```
+function firstWord(str) {
+let space = str.indexOf(' '); 
+return str.substr(0, space);
+}
+```
+## String: replace()
+```
+function normalize(date) {
+  return date.replace(/-/g, '/');
+}
+```
+## Increment
+The value of X will be 7
+## Fahrenheit
+```
+function toFahrenheit (c) {
+ return (c*1.8)+32;
+}
+```
+## Boolean
+function nand(a, b) {
+ return !(a&&b);
+}
