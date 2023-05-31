@@ -721,3 +721,64 @@ let tree = 'maple'
 The value will be 'Toe'
 ## Assign variables
 The value of x will be "Hardy"
+## Functions
+```
+function hello() {
+ return 'Hello world!';
+}
+```
+## Multiple functions
+```
+function a() {
+ return 'Hello a!';
+}
+
+function b() {
+ return 'Hello b!';
+}
+```
+## Function calls
+```
+function greet() {
+return 'Haydo!';
+}
+let salutation = greet();
+```
+## What is x? (function version)
+The variable x will have 'how do you do?' as value
+## Parameters
+```
+function echo(message) {
+  return message;
+}
+```
+## Strings
+function greet(name) {
+ return 'Hello ' + name + '!';
+}
+## String: length
+```
+function length(message) {
+return message.length;
+}
+```
+## String: toUpperCase()
+```
+function toCase(str){
+ return `${str.toLowerCase()}-${str.toUpperCase()}`;
+}
+```
+## String: charAt()
+```
+function shortcut(str1, str2) {
+return str1.charAt(0) + str2.charAt(0);
+}
+```
+## String: indexOf()
+```
+function indexOfIgnoreCase(s1, s2) {
+  let s1Lower = s1.toLowerCase();
+  let s2Lower = s2.toLowerCase();
+  return s1Lower.indexOf(s2Lower);
+}
+```
