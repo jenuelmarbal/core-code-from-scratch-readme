@@ -809,3 +809,9 @@ function nand(a, b) {
  return !(a&&b);
 }
 ```
+## Objects
+```
+function animal(obj){
+ return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+}
+```
