@@ -803,6 +803,8 @@ function toFahrenheit (c) {
 }
 ```
 ## Boolean
+```
 function nand(a, b) {
  return !(a&&b);
 }
+```
